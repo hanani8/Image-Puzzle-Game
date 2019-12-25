@@ -1,0 +1,196 @@
+body {
+  background:white;
+}
+
+#my-container{
+  border:0px solid green;
+ max-height: 600px;
+ 
+max-width:600px;
+  
+
+}
+
+#my-container > div {
+    display: inline-block   
+}
+#my-col1{
+  border:1px solid blue;
+  position:relative;
+
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg)  0 0;
+  
+}
+
+#my-col2{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -150px 0;
+}
+
+#my-col3{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -300px 0;
+}
+
+#my-col4{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -450px 0;
+}
+#my-col5{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) 0 -150px;
+}
+#my-col6{
+  border:1px solid blue; 
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -150px -150px;
+}
+#my-col7{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -300px -150px;
+}
+#my-col8{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -450px -150px;
+}
+#my-col9{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) 0 -300px;
+}
+
+
+#my-col10{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -150px -300px;
+}
+#my-col11{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -300px -300px;
+}
+#my-col12{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -450px -300px;
+}
+
+#my-col13{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) 0 -450px;
+}
+
+#my-col14{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -150px -450px;
+}
+
+#my-col15{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -300px -450px;
+}
+
+#my-col16{
+  border:1px solid blue; 
+  position:relative;
+  width: 150px;
+  height: 150px;
+  background: url(https://i.pinimg.com/564x/6a/2f/d6/6a2fd61f12b7d0b798e4553164c93d5b.jpg) -450px -450px;
+}
+
+
+
+/* .box1{
+  background:purple;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box2{
+  background:crimson;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box3{
+  background:violet;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box4{
+  background:whitesmoke;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box5{
+  background:salmon;
+  width:200px; */
+  /* height:200px;
+  position:relative;
+}
+.box6{
+  background:white;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box7{
+  background:yellow;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box8{
+  background:blueviolet;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+.box9{
+  background:blue;
+  width:200px;
+  height:200px;
+  position:relative;
+}
+ */

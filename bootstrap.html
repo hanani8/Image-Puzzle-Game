@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>This is good,though</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+  
+    <script>
+      $( function() {
+    $( "#my-container" ).sortable();
+    $( "#my-container" ).disableSelection();
+   });
+   $(function () {
+    var parent = $("#my-container");
+    var divs = parent.children(); 
+    while (divs.length) {
+        parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+    } 
+    
+});
+</script>
+
+
+<script>
+
+var x = $("#my-container div:nth-child("+i+")"); 
+  
+if(x[0].id == "my-col" + i){  
+    console.log("1 is right")
+  }
+</script>
+   
+
+</head>
+<body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div id="my-container">
+      <div id="my-col1">
+          <img id="my-col1">
+      </div>
+        <div id="my-col2"> 
+            <img id="my-col2">
+        </div>
+        <div id="my-col3">
+            <img id="my-col3">
+        </div>
+        <div id="my-col4">
+          <img id="my-col4">
+        </div>
+      
+        <div id="my-col5">
+          <img id="my-col5">
+        </div>
+        <div id="my-col6">
+          <img id="my-col6">
+        </div>
+        <div id="my-col7">
+          <img id="my-col7">
+        </div>
+        <div id="my-col8">
+            <img id="my-col8">
+        </div>
+     
+      
+          <div id=" my-col9">
+            <img id="my-col9">
+          </div>
+          <div id=" my-col10"> 
+              <img id="my-col10"> 
+          </div>
+          <div id="my-col11">
+            <img id="my-col11">
+          </div>
+          <div id="my-col12">
+            <img id="my-col12">
+          </div>
+     
+        
+            <div id="my-col13">
+              <img id="my-col13">
+            </div>
+            <div id="my-col14"> 
+              <img id="my-col14">
+            </div>
+            <div id="my-col15">
+              <img id="my-col15">
+            </div>
+            <div id=" my-col16">
+              <img id="my-col16">
+            </div>
+         
+    </div>
+
+
+    
+     
+</body>
+</html>
+
